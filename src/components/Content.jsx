@@ -7,7 +7,7 @@ const graphcms = new GraphQLClient(
 
 import '../styles/Content.css';
 import { useEffect, useState } from 'react';
-import { a11yDark, dracula, github, lightfair } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import { a11yDark} from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 const Content = ({postId}) => {
 
