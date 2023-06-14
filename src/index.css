@@ -13,6 +13,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   overflow-y: hidden;
+  overflow-x: hidden;
+
 }
 
 a {
