@@ -6,6 +6,7 @@
   padding: 0;
   text-align: center;
   overflow-x: hidden;
+  color: black;
   --dark-orange:#FBBC5D;
   --light-orange:#FEF3B2;
   --dark-text-orange:rgb(143, 125, 92);

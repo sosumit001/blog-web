@@ -75,8 +75,8 @@
 
 @media only screen and (max-width: 540px) {
     .contentWrapper{
-        width: 100%;
-        left: 0%;
+        width: 95%;
+        left: 2.5%;
     }
     .template-codebox{
         width: 90%;
