@@ -5,12 +5,10 @@ import Blog from '../components/Blog'
 import Contact from '../components/Contact'
 import Content from '../components/Content'
 import data from '../test/Post.json'
-import { gql,GraphQLClient } from 'graphql-request'
+import { gql } from 'graphql-request'
+import graphcms from '../graphcms'
 import { useEffect, useState } from 'react'
 
-const client = new GraphQLClient(
-    "https://api-ap-south-1.hygraph.com/v2/cli7mvbq53prp01uohsazc4u0/master"
-)
 
 
 
@@ -21,7 +19,7 @@ const AppRoutes = () => {
     useEffect(() => {
         async function fetchPost() {
             try {
-                const data = await client.request(POSTS)
+                const data = await graphcms.request(POSTS)
                 const {posts} = await data
                 setPosts(posts)
 

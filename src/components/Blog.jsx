@@ -1,5 +1,8 @@
 import { useEffect, useState } from 'react'
-import {GraphQLClient,gql} from 'graphql-request'
+import {gql} from 'graphql-request'
+import graphcms from '../graphcms'
+
+// graph cms
 import '../styles/Blog.css'
 import loading_svg from '../assets/loader.svg'
 
@@ -8,10 +11,6 @@ import Blogcontent from './subcomponents/Blogcontent'
 
 import arrow_right from '../assets/arrow-right.svg'
 
-
-const graphcms = new GraphQLClient(
-  "https://api-ap-south-1.hygraph.com/v2/cli7mvbq53prp01uohsazc4u0/master"
-)
 
 const QUERY = gql`{
   projects {

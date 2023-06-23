@@ -1,9 +1,6 @@
 import SyntaxHighlighter from 'react-syntax-highlighter/dist/esm/default-highlight';
-import { GraphQLClient,gql } from 'graphql-request';
-
-const graphcms = new GraphQLClient(
-  "https://api-ap-south-1.hygraph.com/v2/cli7mvbq53prp01uohsazc4u0/master"
-)
+import { gql } from 'graphql-request';
+import graphcms from '../graphcms';
 
 import '../styles/Content.css';
 import { useEffect, useState } from 'react';
