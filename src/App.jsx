@@ -8,16 +8,8 @@ function App() {
   return (
    
     <div  className="app-container">
-      <div className="image-container">
-        <img src={profile_image} alt="" />
-        <span>Hi, This is Sumit So</span>
-      </div>
-      <div className="about-container">
-        <p>about me</p>
-        <div>
-        Web developer passionate about creating websites. Enthusiastic about <span>ReactJS, GraphQL, MongoDB, WebAssembly, and Rust.</span> Love sharing discoveries and new ways of doing things. Letss build something amazing together!
-        </div>
-      </div>
+        <h2>This Webpage is shited to </h2>
+        <a style={{fontSize:'20px', color:'black'}} href="https://sumitso.in/">follow this link</a>
     </div>
 
   )
